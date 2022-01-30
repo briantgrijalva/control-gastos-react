@@ -6,7 +6,6 @@ import ControlPresupuesto from './components/ControlPresupuesto';
 import FormularioIngresos from './components/FormlularioIngresos';
 
 
-
 function App() {
 
   // definir el state
@@ -93,7 +92,7 @@ useEffect(() => {
                 
             </div>
 
-            <div class="row">
+            <div className="row">
               <div className="two-half column">
                 <Listado
                   gastos={gastos}
